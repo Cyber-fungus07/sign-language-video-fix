@@ -53,6 +53,7 @@ video_dir = Path("/Users/ayushmishra06/Desktop/sign-language-video-fix/data/ai_g
 videos = list(video_dir.glob("*.mp4"))
 print(f"Found {len(videos)} videos\n")
 compute_transforms(videos)
+
 print("Ananlysing in the real video")
 video_dir = Path("/Users/ayushmishra06/Desktop/sign-language-video-fix/data/real")
 videos = list(video_dir.glob("*.mp4"))
